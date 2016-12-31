@@ -10,16 +10,6 @@ function barChart() {
            height = 650 - margin.top - margin.bottom,
            svg;
 
-    that.createSVGElement = function() {
-    	svg = d3.select('body').append('svg')
-			.attr('width', width +  margin.left + margin.right)
-		   	.attr('height', height + margin.top + margin.bottom)
-		  	.append('g')
-		  	.attr('transform', 'translate(' + margin.left + ',' + margin.right + ')');
-
-	  	return svg;
-    }
-
     /**
      * Renders the bar graph.
      * @param {Object} data Data to be plotted
