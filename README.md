@@ -23,7 +23,8 @@ and then run the test cases.
 3. The axes(X and Y) should be present and should be exactly 1 in number.
 4. Should render Bins, should atleast have one bin plotted, just to make sure that something is plotted
 5. The Sum of the width of each bins should be less than the width of the SVG, else the bins will be clipped from the SVG
-6. The Height of each bin should be less than the height of the SVG element. 
+6. The number of bins plotted is equal to the number of ticks present on the xAxis.
+7. The Height of each bin should be less than the height of the SVG element. 
 
 
 ## Some assumptions made while writing the test case:
