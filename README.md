@@ -27,8 +27,9 @@ and then run the test cases.
 
 
 ## Some assumptions made while writing the test case:
-	1. The candidate creates the bar char with the class *bar* for all the bins.
-	2. The candidate creates the x and y axis with classes *x axis* and *y axis* respectively.
+
+1. The candidate creates the bar char with the class *bar* for all the bins.
+2. The candidate creates the x and y axis with classes *x axis* and *y axis* respectively.
  	
 
 ## To view the chart plotted
@@ -36,6 +37,5 @@ and then run the test cases.
 1. cd into the D3IndiaCensus-Modified then run the static server
 
 ## To run the test cases
-
-1. npm install
-2. npm run karma
+	npm install
+	npm run karma
