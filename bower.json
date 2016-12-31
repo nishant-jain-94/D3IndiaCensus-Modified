@@ -1,0 +1,20 @@
+{
+  "name": "D3Module",
+  "homepage": "https://github.com/SridharanManoharan/D3IndiaCensus",
+  "authors": [
+    "Nishant Jain <nishantkumarajain@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "3.4"
+  }
+}
