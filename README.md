@@ -29,8 +29,9 @@ and then run the test cases.
 
 ## Some assumptions made while writing the test case:
 
-1. The candidate creates the bar char with the class *bar* for all the bins.
-2. The candidate creates the x and y axis with classes *x axis* and *y axis* respectively.
+1. The candidate creates a svg element under the body element. 
+2. The candidate creates the bar char with the class *bar* for all the bins.
+3. The candidate creates the x and y axis with classes *x axis* and *y axis* respectively.
  	
 
 ## To view the chart plotted
