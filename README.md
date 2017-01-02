@@ -38,5 +38,6 @@ and then run the test cases.
 1. cd into the D3IndiaCensus-Modified then run the static server
 
 ## To run the test cases
+	npm install -g phantomjs
 	npm install
 	npm run karma
